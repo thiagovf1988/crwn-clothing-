@@ -19,5 +19,15 @@
       color: black;
       border: 1px solid black;
     }
+
+    &.google-sign-in{//withou & sass will put to a child element  ...but & says custom button.google-signi
+      background-color: #4285f4;
+      color: white;
+
+      &.hover{
+        background-color: #357ae8;
+        border: none;
+      }
+    }
   }
   
